@@ -11,12 +11,12 @@ function ageInDays(){
     h1.setAttribute('id', 'ageInDays');
     // appendChild: 在指定元素节点的最后一个子节点之后添加节点。
     h1.appendChild(textAnswer);
-    // id must in html but why can't use class?????
+    // does this id refer to html? must in html but why can't use class?
     document.getElementById('result').appendChild(h1);
     // document.getElementsByClassName('result').appendChild(h1);
    
 }
 function reset(){
-    // id must in html but why can't use class?????
+    // does this id refer to html ? must in html but why can't use class?
     document.getElementById('ageInDays').remove();
 }
